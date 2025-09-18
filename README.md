@@ -90,12 +90,6 @@ make
 
 ---
 
-## 📸 Preview
-
-![Game Preview](preview.jpg)
-
----
-
 ## 📌 Future Enhancements
 
 * Power-ups (multi-laser, shields, etc.)
