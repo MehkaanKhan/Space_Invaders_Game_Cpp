@@ -1,29 +1,110 @@
-# Raylib-CPP-Starter-Template-for-VSCODE-V2
-Raylib C++ Starter Template for Visual Studio Code on Windows.
-This demo project contains a bouncing ball raylib example program.
-It works with raylib version 5.0. Tested on both Windows 10 and Windows 11.
+# 👾 Space Invader Game
 
-# How to use this template
-1. Double click on the main.code-workspace file. This will open the template in VS Code.
-2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
-3. Press F5 on the keyboard to compile and run the program.
+A modern take on the **classic Space Invader** arcade game, developed in **C++** using **Object-Oriented Programming (OOP)** principles and the **Raylib graphics library**.
 
-# What's changed
-The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
+This project was built as part of my **Programming Fundamentals course**, where I focused on applying clean OOP design patterns, handling game loops, and integrating multimedia assets (graphics, fonts, sounds) into an interactive application.
 
-# Video Tutorial
+---
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+## 📂 Project Structure
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+```
+├── Font/              # Fonts used in the game  
+├── Graphics/          # Sprites & textures (aliens, spaceship, lasers)  
+├── Sounds/            # Sound effects (shooting, explosions, etc.)  
+├── lib/               # Raylib library files  
+├── src/               # Source code (classes & game logic)  
+├── highscore.txt      # Tracks top scores  
+├── leaderboard.txt    # Stores leaderboard history  
+├── Makefile           # Build automation  
+├── preview.jpg        # Screenshot of gameplay  
+├── *.exe              # Compiled executables (Game, Spaceship, Alien, etc.)  
+└── README.md          # Documentation  
+```
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.educ8s.tv">My Website</a> | <br>
-</p>
+---
+
+## ✨ Key Features
+
+* **OOP-Centric Design**
+
+  * Classes for `Spaceship`, `Alien`, `Laser`, `MysteryShip`, and `GameManager`
+  * Encapsulation of movement, rendering, and collision logic
+
+* **Classic Gameplay Mechanics**
+
+  * Player-controlled spaceship with shooting mechanics
+  * Rows of descending aliens
+  * Randomized mystery ship for bonus points
+
+* **Scoring & Persistence**
+
+  * Points awarded for hits
+  * **Leaderboard + High Score system** (data saved in `.txt` files)
+
+* **Interactive Experience**
+
+  * Retro-style **graphics & sound effects**
+  * Smooth controls with responsive shooting
+
+---
+
+## 🛠️ Tech Stack
+
+* **Language**: C++
+* **Graphics/Framework**: Raylib
+* **Paradigm**: Object-Oriented Programming
+* **Build System**: Makefile
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/MehkaanKhan/Space-Invader-OOP.git
+cd Space-Invader-OOP
+```
+
+### 2. Build the project
+
+```bash
+make
+```
+
+### 3. Run the game
+
+```bash
+./Game.exe
+```
+
+---
+
+## 🎮 Controls
+
+* ⬅️ **Left Arrow** – Move Left
+* ➡️ **Right Arrow** – Move Right
+* ⬆️ **Spacebar** – Shoot
+* ❌ **Esc** – Quit Game
+
+---
+
+## 📸 Preview
+
+![Game Preview](preview.jpg)
+
+---
+
+## 📌 Future Enhancements
+
+* Power-ups (multi-laser, shields, etc.)
+* Difficulty scaling with levels
+* Two-player co-op mode
+* Advanced animations and effects
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
