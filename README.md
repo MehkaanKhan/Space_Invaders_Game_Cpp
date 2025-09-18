@@ -17,7 +17,6 @@ This project was built as part of my **Programming Fundamentals course**, where 
 ├── highscore.txt      # Tracks top scores  
 ├── leaderboard.txt    # Stores leaderboard history  
 ├── Makefile           # Build automation  
-├── preview.jpg        # Screenshot of gameplay  
 ├── *.exe              # Compiled executables (Game, Spaceship, Alien, etc.)  
 └── README.md          # Documentation  
 ```
